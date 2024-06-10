@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_detailed_view"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:src="@drawable/weather" />
+
+    <TextView
+        android:id="@+id/Monday"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Mondays Minimum Temp was 12 degrees\n and the max is 25"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/Tuesday"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Tuesdays minimum Temp was 15 degrees \n and the maximum is 29"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/Wednesday"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Wedsnesdays minimum Temp was 11 degrees \n and the maximum is 27"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/Thursday"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Thursdays minimum Temp was 13 degreesa \n and the maximum is 30"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/Friday"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Fridays minimum Temp was 12 degrees \n amd the maximum is 20"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/Saturday"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Saturdays minimum Temp was 10 degrees and \n the maximum is 18"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/Sunday"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Sundays minimum Temp was 10 degrees and \n the maximum is 16"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tvDisp"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Exit">
+        </Button>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Save"></Button>
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Exit">
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

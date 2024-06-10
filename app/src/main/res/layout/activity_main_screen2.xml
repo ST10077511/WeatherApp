@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainScreenActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        app:srcCompat="@drawable/weather" />
+
+
+        <TextView
+            android:id="@+id/Monday"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Mondays Weather condition\nSunny"
+            android:textStyle="bold"
+            android:textSize="19sp"/>
+
+        <TextView
+            android:id="@+id/Tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Tuesdays Weather condition\nSunny"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/Wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Wednesdays Weather condition\n Cloudy"
+            android:textStyle="bold"
+            android:textSize="19sp"/>
+
+        <TextView
+            android:id="@+id/Thursday"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Thursdays Weather condition \n Clear skies"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/Friday"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Fridays Weather condition \n Overcast"
+            android:textStyle="bold"
+            android:textSize="19sp"/>
+
+        <TextView
+            android:id="@+id/Saturday"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Saturdays Weather condition \n Raining"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/Sunday"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Sundays Weather condition \n Cold"
+            android:textStyle="bold"
+            android:textSize="19sp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvDisp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+    </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Exit">
+        </Button>
+
+        <Button
+            android:id="@+id/btnDetailedView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DetailedView">
+        </Button>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
